@@ -1,0 +1,19 @@
+{
+    "_static": {
+      "generator": "globus/static-data-portal"
+    },
+    "content": {
+      "title": "Modern Research Data Portal",
+      "privacy_policy": "This is an example privacy policy – you should replace this with your own policy.",
+      "terms_of_service": "This is an example terms of service – you should replace this with your own terms."
+    },
+    "globus": {
+      "application": {
+        "client_id": "71ed3dd6-a200-43e4-9f58-d50d8df289f6"
+    },
+      "transfer": {
+        "collection_id": "a6f165fa-aee2-4fe5-95f3-97429c28bf82"
+      }
+    }
+  }
+  
