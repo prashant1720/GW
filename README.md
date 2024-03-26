@@ -20,6 +20,7 @@ This is a static research data portal powered by Globus.
 1. Create a new repository from the [globus/example-data-portal](https://github.com/globus/example-data-portal) template.
    * <img width="188" alt="Screenshot 2024-03-11 at 12 24 22 PM" src="https://github.com/globus/example-data-portal/assets/694253/abffa5a5-86c8-47d9-be4b-f249d34505ab">
 1. [Update your repository to allow publishing with GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
+1. [Ensure your GitHub Pages is configured to Enforce HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 1. Register an application on Globus – https://app.globus.org/settings/developers
    * You'll be creating an OAuth public client.
    * Update the **Redirects** to include your GitHub Pages URL + `/authenticate`, i.e., `https://globus.github.io/example-data-portal/authenticate`.
