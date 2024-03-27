@@ -40,7 +40,7 @@ While this repository is a working example of a data portal, it is also a templa
 #### Common Changes after Creating Your Portal
 
 - **Updating the Title and Tagline** – Update the `data.attributes.content.title` and `data.attributes.content.tagline` in the `static.json`.
-- **Edit/Remove the `CITATION` file** – Update the `CITATION` file to reflect the appropriate citation information for your research data portal – [learn more about `CITATION` files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
+- **Edit/Remove the `CITATION` file** – Update the [`CITATION.cff`](CITATION.cff) file to reflect the appropriate citation information for your research data portal – [learn more about `CITATION` files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 - **Removing this section of the README** – Remove this section from the `README.md` file or update the README to meet your needs.
 
 ----
