@@ -32,6 +32,7 @@ While this repository is a working example of a data portal, it is also a templa
 1. Update the `static.json` to include:
    * `data.attributes.globus.application.client_id` – The UUID of the client created in **the previous step**.
    * `data.attributes.globus.transfer.collection_id` – The Collection UUID that will be the "source" of your data portal.
+   * Optional: Set the `data.attributes.globus.transfer.path` to a specific path within the collection.
    * See the [static.json](#staticjson) type definitions for more configuration options.
 1. **That's it!** The changes made (and any future changes) to the `static.json` will trigger a GitHub Action that will automatically build and deploy your research data portal to your GitHub Pages URL.
 
@@ -39,11 +40,8 @@ While this repository is a working example of a data portal, it is also a templa
 #### Common Changes after Creating Your Portal
 
 - **Updating the Title and Tagline** – Update the `data.attributes.content.title` and `data.attributes.content.tagline` in the `static.json`.
-- **Updating the Privacy Policy and Terms of Service** – Update the `data.attributes.content.privacy_policy` and `data.attributes.content.terms_of_service` in the `static.json`.
-- **Changing the Collection Path** – Update the `data.attributes.globus.transfer.path` in the `static.json`.
-- **Removing this section of the README** – Remove this section from the `README.md` file.
 - **Edit/Remove the `CITATION` file** – Update the `CITATION` file to reflect the appropriate citation information for your research data portal – [learn more about `CITATION` files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
-
+- **Removing this section of the README** – Remove this section from the `README.md` file or update the README to meet your needs.
 
 ----
 
