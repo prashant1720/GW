@@ -26,8 +26,10 @@ While this repository is a working example of a data portal, it is also a templa
 1. [Update your repository to allow publishing with GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 1. [Ensure your GitHub Pages are configured to Enforce HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 1. Register an application on Globus – https://app.globus.org/settings/developers
-   * You'll be creating an OAuth public client.
-   * Update the **Redirects** to include your GitHub Pages URL + `/authenticate`, i.e., `https://globus.github.io/example-data-portal/authenticate`.
+   * You'll be creating an OAuth public client; This option is presented as _"Register a thick client or script that will be installed and run by users on their devices"_.
+   * Update the **Redirects** to include your GitHub Pages URL + `/authenticate`, i.e., `https://globus.github.io/example-data-portal/authenticate`, `https://{username}.github.io/{repository}/authenticate`
+     * If you have [configured your GitHub Pages to use a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), this will be `https://{domain}/authenticate`
+     * It is important to note that Globus Auth **requires HTTPS**.
    * Optional: Specify the **Privacy Policy URL** and **Terms & Conditions URL** to the portal-provided routes, i.e. `https://globus.github.io/example-data-portal/privacy-policy`
 1. Update the `static.json` to include:
    * `data.attributes.globus.application.client_id` – The UUID of the client created in **the previous step**.
