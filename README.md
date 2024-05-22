@@ -1,7 +1,5 @@
 # 🧪 BETA 🧪
 
-**We're looking forward to sharing more details about this repository and more at [GlobusWorld 2024](https://www.globusworld.org/)!**
-
 ----
 
 <img src="https://github.com/globus/example-data-portal/assets/694253/29723bc0-d692-47d5-bdc3-2625d3712cf3" height="200px" alt="Globus + static" />
