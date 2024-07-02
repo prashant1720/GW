@@ -3,7 +3,7 @@
    <br/>
   <strong>🧪 BETA 🧪</strong>
   <br/>
-  This is a static research data portal powered by Globus.
+  <strong>This is template repository used to generate a Globus-powered research search data portal.</strong>
   <br/>
 </p>
 
